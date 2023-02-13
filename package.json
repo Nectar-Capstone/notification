@@ -1,0 +1,23 @@
+{
+  "name": "nectar-notification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1304.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.9.0",
+    "make-runnable": "^1.4.1",
+    "thaibulksms-api": "^1.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
